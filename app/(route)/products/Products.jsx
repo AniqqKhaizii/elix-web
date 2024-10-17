@@ -105,8 +105,7 @@ function Products() {
 							<div className="absolute inset-0 flex flex-col items-start justify-end p-6">
 								<div className="bg-black/50 px-6 py-3">
 									<h3 className="text-xl font-medium text-white">
-										DJI Mavic 3 Enterprise ======= >>>>>>>
-										216e495a9b1e14e0fe8ee98b580ddaaa638bf676
+										DJI Mavic 3 Enterprise
 									</h3>
 								</div>
 							</div>
