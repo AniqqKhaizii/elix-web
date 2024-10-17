@@ -40,7 +40,7 @@ function Spkb() {
 							playsInline
 							className="absolute inset-0 h-full w-full object-cover"
 						>
-							<source src="/SPKB FINAL.mp4" type="video/mp4" />
+							<source src="https://youtu.be/KuueSUTBcbM" type="video/mp4" />
 						</video>
 					</div>
 				</motion.div>

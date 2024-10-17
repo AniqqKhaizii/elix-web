@@ -51,7 +51,7 @@ function Hero() {
 						for various industries, including government
 					</motion.p>
 					<Button className="mt-8 bg-transparent border border-gray-900 rounded-full shadow-lg text-md text-gray-900 hover:bg-transparent hover:scale-105 transition-all ease-in-out">
-						More About Us
+						<a href="/about">More About Us</a>
 					</Button>
 				</div>
 			</div>

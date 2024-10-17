@@ -63,7 +63,7 @@ const Solutions = () => {
 					</a>
 
 					<a
-						className="flex flex-col justify-around bg-white border-blue-200 gap-3 items-center rounded-xl border p-12 shadow-xl transition-all ease-in-out hover:scale-105  hover:shadow-gray-500/10"
+						className="flex flex-col justify-around bg-white border-blue-100 gap-3 items-center rounded-xl border p-12 shadow-xl transition-all ease-in-out hover:scale-105  hover:shadow-gray-500/10"
 						href="/solutions"
 					>
 						<Image
@@ -84,7 +84,7 @@ const Solutions = () => {
 						</p>
 					</a>
 					<a
-						className="flex flex-col justify-around bg-white border-blue-200 gap-3 items-center rounded-xl border p-12 shadow-xl transition-all ease-in-out hover:scale-105  hover:shadow-gray-500/10"
+						className="flex flex-col justify-around bg-white border-blue-100 gap-3 items-center rounded-xl border p-12 shadow-xl transition-all ease-in-out hover:scale-105  hover:shadow-gray-500/10"
 						href="/solutions"
 					>
 						<Image
@@ -106,7 +106,7 @@ const Solutions = () => {
 						</p>
 					</a>
 					<a
-						className="flex flex-col justify-around bg-white border-blue-200 gap-3 items-center rounded-xl border p-12 shadow-xl transition-all ease-in-out hover:scale-105  hover:shadow-gray-500/10"
+						className="flex flex-col justify-around bg-white border-blue-100 gap-3 items-center rounded-xl border p-12 shadow-xl transition-all ease-in-out hover:scale-105  hover:shadow-gray-500/10"
 						href="/solutions"
 					>
 						<Image

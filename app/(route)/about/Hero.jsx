@@ -31,16 +31,6 @@ function Hero() {
 							</span>
 							Company Profile
 						</a>
-
-						<a
-							href="#"
-							className="flex flex-row justify-center items-center gap-2 w-full rounded bg-white px-12 py-3 text-sm font-medium text-blue-600 shadow hover:text-blue-700 focus:outline-none focus:ring active:text-blue-500 sm:w-auto"
-						>
-							<span className="text-2xl">
-								<FaCertificate />
-							</span>
-							ISO 9001 Certificate
-						</a>
 					</div>
 				</div>
 			</div>
