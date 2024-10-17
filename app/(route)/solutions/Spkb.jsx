@@ -62,7 +62,7 @@ function Spkb() {
 						className="w-full h-full"
 					></iframe> */}
 					<video width="auto" height="auto" autoplay loop muted>
-					  <source src="/SPKB FINAL.mp4" type="video/mp4">
+					  <source src="/SPKB FINAL.mp4" type="video/mp4"/>
 					</video>
 				</motion.div>
 			</div>
