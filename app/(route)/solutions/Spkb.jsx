@@ -51,7 +51,7 @@ function Spkb() {
 					}}
 					className="col-span-1 mt-6 relative lg:h-[47.5vh] md:h-[33vh] h-[24vh] overflow-hidden shadow-xl"
 				>
-					<iframe
+{/* 					<iframe
 						height={"100%"}
 						width={"100%"}
 						src="https://www.youtube.com/embed/KuueSUTBcbM?autoplay=1&showinfo=0&loop=1&mute=1&list=PLmpB1Z-kgo7DK4TcVhbybMtxVg-FiJxF7&rel=0"
@@ -60,7 +60,10 @@ function Spkb() {
 						referrerPolicy="strict-origin-when-cross-origin"
 						allowFullScreen
 						className="w-full h-full"
-					></iframe>
+					></iframe> */}
+					<video width="auto" height="auto" autoplay loop muted>
+					  <source src="/SPKB FINAL.mp4" type="video/mp4">
+					</video>
 				</motion.div>
 			</div>
 			<section>
