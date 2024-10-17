@@ -1,25 +1,8 @@
 "use client";
-import "lightgallery/css/lightgallery.css";
-import "lightgallery/css/lg-zoom.css";
-import "lightgallery/css/lg-thumbnail.css";
-import LightGallery from "lightgallery/react";
-import lgZoom from "lightgallery/plugins/zoom";
-import lgVideo from "lightgallery/plugins/video";
-import fjGallery from "flickr-justified-gallery";
 
 import React, { useEffect } from "react";
 import * as motion from "framer-motion/client";
 function Detail() {
-	useEffect(() => {
-		fjGallery(document.querySelectorAll(".gallery"), {
-			itemSelector: ".gallery__item",
-			rowHeight: 180,
-			lastRow: "start",
-			gutter: 2,
-			rowHeightTolerance: 0.1,
-			calculateItemsHeight: false,
-		});
-	}, []);
 	return (
 		<section>
 			<div className="mx-auto px-2 py-12 sm:px-6 sm:py-12 lg:px-2 lg:py-16 bg-gradient-to-b from-[#ffffff] to-[#d3e7f0] ">
@@ -167,7 +150,7 @@ function Detail() {
 							</p>
 						</motion.div>
 					</div>
-					<LightGallery
+					{/* <LightGallery
 						plugins={[lgZoom, lgVideo]}
 						mode="lg-fade"
 						pager={false}
@@ -231,7 +214,7 @@ function Detail() {
 								className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
 							/>
 						</a>
-					</LightGallery>
+					</LightGallery> */}
 				</div>
 			</div>
 		</section>
