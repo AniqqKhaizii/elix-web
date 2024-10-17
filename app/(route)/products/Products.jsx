@@ -75,14 +75,35 @@ function Products() {
 					>
 						<a href="#" className="group relative block">
 							<img
-								src="/Products/PM90ID.png"
+								src="https://honeywell.scene7.com/is/image/Honeywell65/sps-ppr-eda57-additional-angle-left-13"
 								alt=""
 								className="aspect-square w-full object-contain transition duration-500 group-hover:opacity-90"
 							/>
 							<div className="absolute inset-0 flex flex-col items-start justify-end p-6">
 								<div className="bg-black/50 px-6 py-3">
 									<h3 className="text-xl font-medium text-white">
-										PM90 ID Mobile Handheld
+										Honeywell EDA57
+									</h3>
+								</div>
+							</div>
+						</a>
+					</motion.li>
+					<motion.li
+						initial={{ x: 200, opacity: 0 }}
+						whileInView={{ x: 0, opacity: 1 }}
+						transition={{ duration: 0.8, ease: [0, 0.71, 0.2, 1.01] }}
+						className="lg:col-span-2 lg:col-start-1 lg:row-span-2 lg:row-start-1"
+					>
+						<a href="#" className="group relative block">
+							<img
+								src="https://www.lacameraembarquee.fr/71387-large_default/dji-mavic-3e-enterprise-c2.jpg"
+								alt=""
+								className="aspect-square w-full object-contain transition duration-500 group-hover:opacity-90"
+							/>
+							<div className="absolute inset-0 flex flex-col items-start justify-end p-6">
+								<div className="bg-black/50 px-6 py-3">
+									<h3 className="text-xl font-medium text-white">
+										DJI Mavic 3 Enterprise
 									</h3>
 								</div>
 							</div>
