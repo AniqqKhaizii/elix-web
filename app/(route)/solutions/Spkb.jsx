@@ -51,19 +51,19 @@ function Spkb() {
 					}}
 					className="col-span-1 mt-6 relative lg:h-[47.5vh] md:h-[33vh] h-[24vh] overflow-hidden shadow-xl"
 				>
-{/* 					<iframe
+					<iframe
 						height={"100%"}
 						width={"100%"}
-						src="https://www.youtube.com/embed/KuueSUTBcbM?autoplay=1&showinfo=0&loop=1&mute=1&list=PLmpB1Z-kgo7DK4TcVhbybMtxVg-FiJxF7&rel=0"
+						src="https://www.youtube.com/embed/6aH3L2t_jH0?autoplay=1&showinfo=0&loop=1&mute=1&list=PLmpB1Z-kgo7DK4TcVhbybMtxVg-FiJxF7&rel=0"
 						title="YouTube video player"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
 						referrerPolicy="strict-origin-when-cross-origin"
 						allowFullScreen
 						className="w-full h-full"
-					></iframe> */}
-					<video width="auto" height="auto" autoplay loop muted>
+					></iframe>
+{/* 					<video width="auto" height="auto" autoplay loop muted>
 					  <source src="/SPKB FINAL.mp4" type="video/mp4"/>
-					</video>
+					</video> */}
 				</motion.div>
 			</div>
 			<section>
