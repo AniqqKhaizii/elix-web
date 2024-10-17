@@ -52,7 +52,7 @@ function Products() {
 					>
 						<a href="#" className="group relative block">
 							<img
-								src="http://www.woosim.com/upload/list_20151203151839_400880.png"
+								src="https://woosimsystems.com/staging/9580/wp-content/uploads/2021/06/WSP-i450..png"
 								alt=""
 								className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
 							/>
@@ -60,7 +60,7 @@ function Products() {
 							<div className="absolute inset-0 flex flex-col items-start justify-end p-6">
 								<div className="bg-black/50 px-6 py-3">
 									<h3 className="text-xl font-medium text-white">
-										Woosim Porti 40 Printer
+										Woosim WSP-i450
 									</h3>
 								</div>
 							</div>
