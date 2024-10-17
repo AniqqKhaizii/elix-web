@@ -64,7 +64,7 @@ function Header() {
 		>
 			<div className="flex justify-between lg:w-full items-center w-screen px-4">
 				<Image src="/ELIX_Logo.webp" alt="ELIX Logo" width={150} height={150} />
-				<ul className="md:flex lg:flex lg:flex-row gap-8 flex-col hidden font-semibold">
+				<ul className="md:flex md:flex-row lg:flex lg:flex-row gap-8 flex-col hidden font-semibold">
 					{Menu.map((item, index) => {
 						const isActive = location === item.path;
 
@@ -100,7 +100,7 @@ function Header() {
 				</button>
 			</div>
 			<ul
-				className="space-y-1 hidden w-screen mt-4 bg-transparent shadow-lg"
+				className="space-y-1 sm:hidden md:hidden w-screen mt-4 bg-white shadow-lg"
 				id="menu"
 			>
 				<li>
@@ -159,7 +159,7 @@ function Header() {
 									href="/solutions"
 									className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
 								>
-									SPPB
+									Super App
 								</a>
 							</li>
 							<li>
@@ -167,7 +167,7 @@ function Header() {
 									href="/solutions"
 									className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
 								>
-									COMMAND CENTRE
+									INTEGRATED OPERATION CENTRE
 								</a>
 							</li>
 						</ul>

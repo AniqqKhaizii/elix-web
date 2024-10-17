@@ -113,8 +113,8 @@ function Products() {
 					</motion.li>
 				</ul>
 
-				<div class="relative flex flex-row overflow-x-hidden shadow-lg">
-					<div class="mx-auto py-24 whitespace-nowrap flex flex-col sm:flex-row">
+				<div className="mt-10 relative flex flex-row overflow-x-hidden shadow-lg">
+					<div className="mx-auto py-6 whitespace-nowrap flex sm:flex-col md:flex-col lg:flex-row">
 						<img
 							src="https://www.honeywell.com/content/dam/honeywellbt/en/images/logos/HON%20logo_200x37%202.png"
 							alt=""
