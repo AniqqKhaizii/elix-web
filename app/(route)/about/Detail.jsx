@@ -13,7 +13,7 @@ function Detail() {
 					</h1>
 					<h2>Elix Solution Sdn. Bhd.</h2>
 					<section>
-						<div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
+						<div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
 							<div className="grid grid-cols-1 lg:h-[65vh] lg:grid-cols-2">
 								<motion.div
 									initial={{
@@ -75,7 +75,7 @@ function Detail() {
 						</div>
 					</section>
 				</div>
-				<div className="grid grid-cols-1 gap-y-12 lg:grid-cols-1 lg:items-center gap-5 mx-auto max-w-screen-2xl">
+				<div className="grid grid-cols-1 gap-y-12 lg:grid-cols-1 lg:items-center gap-5 mx-auto max-w-screen-xl">
 					<div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
 						<motion.div
 							initial={{ x: -200 }}

@@ -2,7 +2,7 @@ import React from "react";
 import * as motion from "framer-motion/client";
 const Team = () => {
 	return (
-		<section className="py-12 flex flex-col gap-20 dark:bg-dark lg:pb-20 ">
+		<section className="py-12 flex flex-col gap-20 dark:bg-dark lg:pb-20 bg-gradient-to-t from-[#ffffff] to-[#d3e7f0] ">
 			<div className="container mx-auto max-w-screen-3xl">
 				<div className="-mx-4 flex flex-wrap">
 					<div className="w-full px-4">
@@ -77,7 +77,7 @@ const Team = () => {
 					/>
 					<TeamCard
 						name="Imran"
-						profession="Mobile App Developer (Internship)"
+						profession="Mobile App Developer"
 						imageSrc="/person.jpg"
 					/>
 				</div>
@@ -187,7 +187,7 @@ const LeaderCard = ({ imageSrc, name, profession, detail, variants }) => {
 				variants={variantsMap[variants]}
 				className="w-full px-4 md:w-1/2 xl:w-1/3"
 			>
-				<div className="mx-auto mb-10 w-full h-full border border-gray-300">
+				<div className="mx-auto mb-10 w-full h-full border border-gray-300 bg-white">
 					<img src={imageSrc} alt="" className="w-full" />
 					<div className="relative -mt-10 mx-10 overflow-hidden rounded-lg bg-white dark:bg-dark-2 text-center">
 						<h3 className="text-xl font-semibold text-dark dark:text-white">
@@ -267,7 +267,7 @@ const TeamCard = ({ imageSrc, name, profession, detail, variants }) => {
 				variants={variantsMap[variants]}
 				className="w-full px-4 md:w-1/2 xl:w-1/4"
 			>
-				<div className="mx-auto mb-10 w-full h-full border border-gray-300">
+				<div className="mx-auto mb-10 w-full h-full border border-gray-300 bg-white">
 					<img src={imageSrc} alt="" className="w-full" />
 					<div className="relative -mt-10 mx-10 overflow-hidden rounded-lg bg-white dark:bg-dark-2 text-center">
 						<h3 className="text-xl font-semibold text-dark dark:text-white">

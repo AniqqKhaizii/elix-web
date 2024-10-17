@@ -2,7 +2,7 @@ import React from "react";
 import * as motion from "framer-motion/client";
 function Products() {
 	return (
-		<section>
+		<section className="bg-gray-100">
 			<div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
 				<motion.header
 					initial={{ y: 200, opacity: 0 }}
@@ -27,7 +27,7 @@ function Products() {
 						initial={{ x: -200, opacity: 0 }}
 						whileInView={{ x: 0, opacity: 1 }}
 						transition={{ duration: 0.8, ease: [0, 0.71, 0.2, 1.01] }}
-						className="border border-gray-300 shadow-xl"
+						className="bg-white border border-gray-300 shadow-md"
 					>
 						<a href="#" className="group relative block">
 							<img
@@ -50,7 +50,7 @@ function Products() {
 						initial={{ x: -200, opacity: 0 }}
 						whileInView={{ x: 0, opacity: 1 }}
 						transition={{ duration: 0.8, ease: [0, 0.71, 0.2, 1.01] }}
-						className="border border-gray-300 shadow-xl"
+						className="bg-white border border-gray-300 shadow-md"
 					>
 						<a href="#" className="group relative block">
 							<img
@@ -73,7 +73,7 @@ function Products() {
 						initial={{ x: 200, opacity: 0 }}
 						whileInView={{ x: 0, opacity: 1 }}
 						transition={{ duration: 0.8, ease: [0, 0.71, 0.2, 1.01] }}
-						className="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1 border border-gray-300 shadow-xl"
+						className="bg-white lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1 border border-gray-300 shadow-md"
 					>
 						<a href="#" className="group relative block">
 							<img
@@ -94,7 +94,7 @@ function Products() {
 						initial={{ x: 200, opacity: 0 }}
 						whileInView={{ x: 0, opacity: 1 }}
 						transition={{ duration: 0.8, ease: [0, 0.71, 0.2, 1.01] }}
-						className="lg:col-span-3 lg:row-start-3 border border-gray-300 shadow-xl"
+						className="lg:col-span-3 lg:row-start-3 border border-gray-300 shadow-md"
 					>
 						<a href="#" className="group relative block">
 							<img
@@ -113,7 +113,7 @@ function Products() {
 					</motion.li>
 				</ul>
 
-				<div className="mt-10 relative flex flex-row overflow-x-hidden shadow-lg">
+				<div className="bg-white mt-10 relative flex flex-row overflow-x-hidden shadow-md">
 					<div className="mx-auto py-6 whitespace-nowrap flex sm:flex-col md:flex-col lg:flex-row">
 						<img
 							src="https://www.honeywell.com/content/dam/honeywellbt/en/images/logos/HON%20logo_200x37%202.png"

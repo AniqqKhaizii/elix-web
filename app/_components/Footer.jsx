@@ -9,7 +9,7 @@ function Footer() {
 					<div>
 						<div className="flex justify-center text-teal-600 sm:justify-start">
 							<Image
-								src="/ELIX_Logo.png"
+								src="/ELIX_logo_outlined.png"
 								alt="logo"
 								width={300}
 								height={200}
