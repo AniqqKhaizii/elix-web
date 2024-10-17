@@ -33,15 +33,16 @@ function Spkb() {
 					className="mt-6"
 				>
 					<div className="relative h-80 overflow-hidden sm:h-80 lg:h-[50vh] shadow-xl">
-						<video
-							autoPlay
-							loop
-							muted
-							playsInline
-							className="absolute inset-0 h-full w-full object-cover"
-						>
-							<source src="https://youtu.be/KuueSUTBcbM" type="video/mp4" />
-						</video>
+						<iframe
+							width="560"
+							height="315"
+							src="https://www.youtube.com/embed/KuueSUTBcbM?si=Xg4gmsmxK4_f7M7s&amp;controls=0"
+							title="YouTube video player"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							referrerpolicy="strict-origin-when-cross-origin"
+							allowfullscreen
+						></iframe>
 					</div>
 				</motion.div>
 			</div>
