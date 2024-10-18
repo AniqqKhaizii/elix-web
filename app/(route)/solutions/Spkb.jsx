@@ -40,43 +40,41 @@ function Spkb() {
 								x: 0,
 								transition: { duration: 0.8, ease: [0, 0.71, 0.2, 1.01] },
 							}}
-							className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-second lg:h-full"
+							className="relative h-full overflow-hidden rounded-lg lg:order-second lg:h-full"
 						>
-							<section>
-								<div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-									<ul className="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-3">
-										<li>
-											<div className="group relative block">
-												<img
-													src="/spkb_icon.png"
-													alt=""
-													className="aspect-square w-full object-contain transition duration-500 group-hover:opacity-90"
-												/>
-											</div>
-										</li>
+							<div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+								<ul className="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-3">
+									<li>
+										<div className="group relative block">
+											<img
+												src="/spkb_icon.png"
+												alt=""
+												className="aspect-square w-full object-contain transition duration-500 group-hover:opacity-90"
+											/>
+										</div>
+									</li>
 
-										<li>
-											<div className="group relative block">
-												<img
-													src="/SPKB1.jpg"
-													alt=""
-													className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
-												/>
-											</div>
-										</li>
+									<li>
+										<div className="group relative block">
+											<img
+												src="/SPKB1.jpg"
+												alt=""
+												className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
+											/>
+										</div>
+									</li>
 
-										<li className="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1">
-											<div className="group relative block">
-												<img
-													src="https://cdn.prod.website-files.com/62a986046801ae7aeb3e5205/65ddf339387b3f985e9e71a8_cover.299-p-800.jpeg"
-													alt=""
-													className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
-												/>
-											</div>
-										</li>
-									</ul>
-								</div>
-							</section>
+									<li className="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1">
+										<div className="group relative block">
+											<img
+												src="https://cdn.prod.website-files.com/62a986046801ae7aeb3e5205/65ddf339387b3f985e9e71a8_cover.299-p-800.jpeg"
+												alt=""
+												className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
+											/>
+										</div>
+									</li>
+								</ul>
+							</div>
 						</motion.div>
 						<motion.div
 							initial={{
@@ -161,7 +159,7 @@ function Spkb() {
 						Our Clients that implementing SPKB
 					</h2>
 
-					<div className="mx-auto max-w-screen-sm mt-8 grid grid-cols-1 gap-2 md:grid-cols-2 md:gap-8">
+					<div className="mx-auto max-w-screen-sm mt-8 grid grid-cols-2 gap-2 md:grid-cols-2 md:gap-8">
 						<blockquote className="rounded-lg p-6 sm:p-8">
 							<div className="flex flex-col items-center gap-4">
 								<img

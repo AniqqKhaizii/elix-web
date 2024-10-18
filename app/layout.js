@@ -4,7 +4,7 @@ import "./globals.css";
 import { Open_Sans } from "next/font/google";
 import { Poppins } from "next/font/google";
 import { GeistSans } from 'geist/font/sans';
-import { GeistMono } from 'geist/font/mono';
+import { Analytics } from '@vercel/analytics/react';
 
 
 
@@ -30,6 +30,7 @@ export default function RootLayout({ children }) {
         <Header />
         <div>
           {children}
+          <Analytics />
          </div>
          <Footer /> 
       </body>
