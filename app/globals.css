@@ -24,7 +24,7 @@ html{
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  clip-path: ellipse(150% 100% at 50% 0%);
+  clip-path: ellipse(125% 100% at 75% 0%);
 }
 
 .bg-partner {
@@ -33,7 +33,14 @@ html{
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  /* clip-path: polygon(0 0, 100% calc(100% - 33vw), 100% 100%, 0% 100%) */
+}
+
+.bg-CommandCentre {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/IOC/3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 

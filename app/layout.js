@@ -1,10 +1,14 @@
 import Header from "./_components/Header";
 import Footer from "./_components/Footer";
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 import { Poppins } from "next/font/google";
+import { GeistSans } from 'geist/font/sans';
+import { GeistMono } from 'geist/font/mono';
 
-const inter = Inter({
+
+
+const openSans = Open_Sans({
   subsets: ["latin"]
 });
 
@@ -22,7 +26,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
+      <body className={GeistSans.className}>
         <Header />
         <div>
           {children}

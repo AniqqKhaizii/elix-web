@@ -40,7 +40,7 @@ function Header() {
 		},
 		{
 			id: 4,
-			name: "PRODUCT",
+			name: "PRODUCTS",
 			path: "/products",
 		},
 		{
@@ -100,7 +100,7 @@ function Header() {
 				</button>
 			</div>
 			<ul
-				className="space-y-1 sm:hidden md:hidden w-screen mt-4 bg-white shadow-lg"
+				className="space-y-1 hidden w-screen mt-4 bg-white shadow-lg"
 				id="menu"
 			>
 				<li>
@@ -159,7 +159,7 @@ function Header() {
 									href="/solutions"
 									className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
 								>
-									Super App
+									INTEGRATED OPERATION CENTRE
 								</a>
 							</li>
 							<li>
@@ -167,7 +167,15 @@ function Header() {
 									href="/solutions"
 									className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
 								>
-									INTEGRATED OPERATION CENTRE
+									SPPB
+								</a>
+							</li>
+							<li>
+								<a
+									href="/solutions"
+									className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+								>
+									Super App
 								</a>
 							</li>
 						</ul>

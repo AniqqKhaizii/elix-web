@@ -5,7 +5,7 @@ import * as motion from "framer-motion/client";
 function Detail() {
 	return (
 		<section>
-			<div className="mx-auto px-2 py-12 sm:px-6 sm:py-12 lg:px-2 lg:py-16 bg-gradient-to-b from-[#ffffff] to-[#d3e7f0] ">
+			<div className="mx-auto px-2 py-12 sm:px-6 sm:py-12 lg:px-2 lg:py-16 bg-gradient-to-t from-[#EFEFEF] to-[#d3e7f0] ">
 				<div className="flex flex-col items-center justify-center py-12">
 					<hr className="w-16 h-1 mx-auto bg-blue-600 rounded-full" />
 					<h1 className="mt-4 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-900 bg-clip-text text-4xl font-bold text-transparent drop-shadow-md text-center">
@@ -85,7 +85,7 @@ function Detail() {
 						>
 							<span className="inline-block rounded-lg bg-gray-50 p-3">
 								<svg
-									className="size-6"
+									className="size-12"
 									fill="none"
 									stroke="currentColor"
 									viewBox="0 0 24 24"
@@ -102,9 +102,9 @@ function Detail() {
 								</svg>
 							</span>
 
-							<h2 className="mt-2 text-lg font-bold">VISION</h2>
+							<h2 className="mt-2 text-xl font-bold">VISION</h2>
 
-							<p className="sm:mt-1 sm:block sm:text-sm text-center sm:text-gray-700">
+							<p className="sm:mt-1 sm:block sm:text-lg text-center sm:text-gray-700">
 								To be a respected and recognized company that achieves a balance
 								between expansion and responsibility. We are dedicated to
 								offering long-term returns to shareholders, supporting our
@@ -121,7 +121,7 @@ function Detail() {
 						>
 							<span className="inline-block rounded-lg bg-gray-50 p-3">
 								<svg
-									className="size-6"
+									className="size-12"
 									fill="none"
 									stroke="currentColor"
 									viewBox="0 0 24 24"
@@ -138,9 +138,9 @@ function Detail() {
 								</svg>
 							</span>
 
-							<h2 className="mt-2 text-lg font-bold">MISSION</h2>
+							<h2 className="mt-2 text-xl font-bold">MISSION</h2>
 
-							<p className="sm:mt-1 sm:block sm:text-sm text-center sm:text-gray-700">
+							<p className="sm:mt-1 sm:block sm:text-lg text-center sm:text-gray-700">
 								ELIX aims to be the leading provider of ICT and related
 								services, which deliver long term commercial benefits, based
 								upon our client’s key business requirements. The strategies
@@ -150,71 +150,68 @@ function Detail() {
 							</p>
 						</motion.div>
 					</div>
-					{/* <LightGallery
-						plugins={[lgZoom, lgVideo]}
-						mode="lg-fade"
-						pager={false}
-						thumbnail={true}
-						elementClassNames={"gallery"}
-					>
+					<div className="grid grid-cols-2 lg:grid-cols-5 gap-4 mt-10">
 						<a className="gallery__item" data-src="/Activity/Gallery-1.jpeg">
-							<img src="/Activity/Gallery-1.jpeg" />
+							<img
+								src="/Activity/Gallery-1.jpeg"
+								className="w-full h-60 object-cover cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
+							/>
 						</a>
 						<a className="gallery__item" data-src="/Activity/Gallery-2.jpeg">
 							<img
 								src="/Activity/Gallery-2.jpeg"
-								className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
+								className="w-full h-60 object-cover cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
 							/>
 						</a>
 						<a className="gallery__item" data-src="/Activity/Gallery-3.jpeg">
 							<img
 								src="/Activity/Gallery-3.jpeg"
-								className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
+								className="w-full h-60 object-cover cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
 							/>
 						</a>
 						<a className="gallery__item" data-src="/Activity/Gallery-4.svg">
 							<img
 								src="/Activity/Gallery-4.svg"
-								className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
+								className="w-full h-60 object-cover cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
 							/>
 						</a>
 						<a className="gallery__item" data-src="/Activity/Gallery-5.svg">
 							<img
 								src="/Activity/Gallery-5.svg"
-								className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
+								className="w-full h-60 object-cover cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
 							/>
 						</a>
 						<a className="gallery__item" data-src="/Activity/Gallery-6.svg">
 							<img
 								src="/Activity/Gallery-6.svg"
-								className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
+								className="w-full h-60 object-cover cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
 							/>
 						</a>
 						<a className="gallery__item" data-src="/Activity/Gallery-7.svg">
 							<img
 								src="/Activity/Gallery-7.svg"
-								className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
+								className="w-full h-60 object-cover cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
 							/>
 						</a>
 						<a className="gallery__item" data-src="/Activity/Gallery-8.svg">
 							<img
 								src="/Activity/Gallery-8.svg"
-								className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
+								className="w-full h-60 object-cover cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
 							/>
 						</a>
 						<a className="gallery__item" data-src="/Activity/Gallery-9.svg">
 							<img
 								src="/Activity/Gallery-9.svg"
-								className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
+								className="w-full h-60 object-cover cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
 							/>
 						</a>
 						<a className="gallery__item" data-src="/Activity/Gallery-10.svg">
 							<img
 								src="/Activity/Gallery-10.svg"
-								className="cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
+								className="w-full h-60 object-cover cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
 							/>
 						</a>
-					</LightGallery> */}
+					</div>
 				</div>
 			</div>
 		</section>

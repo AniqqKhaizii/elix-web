@@ -8,7 +8,7 @@ function Hero() {
 
 			<div className="relative mx-auto max-w-screen-xl py-32 sm:px-6 lg:flex lg:h-[70vh] lg:items-center lg:px-8">
 				<div className="mx-auto max-w-5xl text-center ltr:sm:text-left rtl:sm:text-right">
-					<h1 className="text-3xl font-regular text-white sm:text-4xl">
+					<h1 className="text-3xl font-bold text-white sm:text-5xl">
 						The Future of Enforcement Technology
 					</h1>
 

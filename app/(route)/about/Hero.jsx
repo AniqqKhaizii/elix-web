@@ -6,7 +6,7 @@ function Hero() {
 		<section className="relative h-[60vh] bg-[url('/abouthero.jpg')] bg-cover bg-center bg-no-repeat z-1">
 			<div className="absolute inset-0 bg-gray-900/75  sm:from-gray-900/95 sm:to-gray-900/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l z-2"></div>
 
-			<div className="relative mx-auto max-w-screen-xl py-32 sm:px-6 lg:flex lg:h-[70vh] lg:items-center lg:px-8">
+			<div className="relative mx-auto max-w-screen-xl py-52 sm:px-6 lg:flex lg:h-[70vh] lg:items-center lg:px-8">
 				<div className="mx-auto max-w-5xl text-center ltr:sm:text-left rtl:sm:text-right">
 					<h1 className="text-3xl font-regular text-white sm:text-4xl">
 						Technology is best when it brings people together

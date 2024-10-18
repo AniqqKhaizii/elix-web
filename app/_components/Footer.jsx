@@ -6,7 +6,7 @@ function Footer() {
 		<footer className="bg-[url('/Footer.webp')] bg-cover bg-center bg-no-repeat text-white]">
 			<div className="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
 				<div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-					<div>
+					<div className="flex flex-col md:flex-row lg:flex-col md:justify-center md:items-center lg:justify-start lg:items-start lg:gap-0 md:gap-4">
 						<div className="flex justify-center text-teal-600 sm:justify-start">
 							<Image
 								src="/ELIX_logo_outlined.png"
@@ -31,7 +31,7 @@ function Footer() {
 						</p>
 					</div>
 
-					<div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:col-span-2">
+					<div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:col-span-2">
 						<div className="text-center sm:text-left">
 							<p className="text-lg font-medium text-gray-100">About Us</p>
 
@@ -39,7 +39,7 @@ function Footer() {
 								<li>
 									<a
 										className="text-gray-400 transition hover:text-blue-400/75"
-										href="#"
+										href="/about"
 									>
 										Company Profile
 									</a>
@@ -48,7 +48,7 @@ function Footer() {
 								<li>
 									<a
 										className="text-gray-400 transition hover:text-blue-400/75"
-										href="#"
+										href="/about"
 									>
 										Meet the Team
 									</a>
@@ -69,33 +69,41 @@ function Footer() {
 						<div className="text-center sm:text-left">
 							<p className="text-lg font-medium text-gray-100">Our Services</p>
 
-							<ul className="mt-8 space-y-4 text-sm">
+							<ul className="mx-auto sm:mx-0 mt-8 space-y-4 text-sm max-w-52 text-center sm:text-left">
 								<li>
 									<a
 										className="text-gray-400 transition hover:text-blue-400/75"
-										href="#"
+										href="/solutions"
 									>
-										Data Staging Platform (DSP)
+										Sistem Penguatkuasaan Bersepadu (SPKB)
 									</a>
 								</li>
 
 								<li>
 									<a
 										className="text-gray-400 transition hover:text-blue-400/75"
-										href="#"
+										href="/solutions"
 									>
 										{" "}
-										Integrated Enforcement System (SPKB){" "}
+										Integrated Operation Center (SPKB-IOC){" "}
 									</a>
 								</li>
-
 								<li>
 									<a
 										className="text-gray-400 transition hover:text-blue-400/75"
-										href="#"
+										href="/solutions"
 									>
 										{" "}
-										Integrated Command Centre (ICC){" "}
+										Sistem Pengurusan Perumahan Bersepadu (SPPB){" "}
+									</a>
+								</li>
+								<li>
+									<a
+										className="text-gray-400 transition hover:text-blue-400/75"
+										href="/solutions"
+									>
+										{" "}
+										Super App{" "}
 									</a>
 								</li>
 							</ul>
@@ -106,10 +114,7 @@ function Footer() {
 
 							<ul className="mt-8 space-y-4 text-sm">
 								<li>
-									<a
-										className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-										href="#"
-									>
+									<div className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
 											className="size-5 shrink-0 text-gray-400"
@@ -128,14 +133,11 @@ function Footer() {
 										<span className="flex-1 text-gray-400">
 											elixsolution@gmail.com
 										</span>
-									</a>
+									</div>
 								</li>
 
 								<li>
-									<a
-										className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-										href="#"
-									>
+									<div className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end">
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
 											className="size-5 shrink-0 text-gray-400"
@@ -154,7 +156,7 @@ function Footer() {
 										<span className="flex-1 text-gray-400">
 											03-8656 3595 / 03-9656 3596
 										</span>
-									</a>
+									</div>
 								</li>
 
 								<li className="flex items-start justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end">
