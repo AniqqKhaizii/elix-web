@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import * as motion from "framer-motion/client";
 function Hero() {
 	return (
-		<section className="bg-hero text-white lg:py-0 py-20 lg:mt-0 mt-20 shadow-2xl lg:h-[85vh] ">
+		<section className="bg-hero text-white lg:py-0 py-20 lg:mt-0 mt-20 shadow-xl lg:h-[85vh] ">
 			<div className="lg:mx-40 max-w-screen-xl px-4 lg:flex lg:h-[85vh] lg:place-items-center">
 				<div className="max-w-auto sm:max-w-auto text-left">
 					<motion.h1
