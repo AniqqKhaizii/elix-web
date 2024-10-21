@@ -170,11 +170,11 @@ function Products() {
 				</ul>
 
 				<div className="bg-white mt-10 relative flex flex-row overflow-x-hidden shadow-md">
-					<div className="mx-auto py-0 whitespace-nowrap grid lg:grid-cols-5 md:grid-cols-2 grid-cols-1 items-center justify-center">
+					<div className="sm:mx-auto py-10 whitespace-nowrap grid lg:grid-cols-5 md:grid-cols-2 grid-cols-1 gap-5 items-center justify-items-center">
 						<img
 							src="https://pointmobile.com/assets/images/image--footer_logo.png"
 							alt="Pointmobile"
-							className="sm:mx-auto  h-auto w-auto"
+							className="sm:mx-auto h-auto w-auto"
 						/>
 						<img
 							src="https://www.honeywell.com/content/dam/honeywellbt/en/images/logos/HON%20logo_200x37%202.png"
@@ -189,7 +189,7 @@ function Products() {
 						<img
 							src="https://logowik.com/content/uploads/images/motorola-new7974.jpg"
 							alt="Motorola"
-							className="sm:mx-auto h-auto w-auto"
+							className="sm:mx-auto h-auto sm:w-auto w-[50%]"
 						/>
 						<img
 							src="https://www-cdn.djiits.com/dps/ff086756c6f7151c92080074044f7ac3.svg"
