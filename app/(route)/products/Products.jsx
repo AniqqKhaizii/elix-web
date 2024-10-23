@@ -29,7 +29,7 @@ function Products() {
 						transition={{ duration: 0.8, ease: [0, 0.71, 0.2, 1.01] }}
 						className="bg-white border border-gray-300 shadow-md"
 					>
-						<a href="#" className="group relative block">
+						<div className="group relative block">
 							<img
 								src="https://honeywell.scene7.com/is/image/Honeywell65/sps-ppr-eda57-additional-angle-left-13"
 								alt=""
@@ -42,7 +42,7 @@ function Products() {
 									</h3>
 								</div>
 							</div>
-						</a>
+						</div>
 					</motion.li>
 					<motion.li
 						initial={{ y: 200, opacity: 0 }}
@@ -54,7 +54,7 @@ function Products() {
 						}}
 						className="bg-white border border-gray-300 shadow-md"
 					>
-						<a href="#" className="group relative block">
+						<div className="group relative block">
 							<img
 								src="/Products/PM90ID.png"
 								alt=""
@@ -65,7 +65,7 @@ function Products() {
 									<h3 className="text-md font-medium text-white">PM90 ID</h3>
 								</div>
 							</div>
-						</a>
+						</div>
 					</motion.li>
 					<motion.li
 						initial={{ y: 200, opacity: 0 }}
@@ -77,7 +77,7 @@ function Products() {
 						}}
 						className="bg-white border border-gray-300 shadow-md"
 					>
-						<a href="#" className="group relative block">
+						<div className="group relative block">
 							<img
 								src="/WSP-i450.png"
 								alt=""
@@ -91,7 +91,7 @@ function Products() {
 									</h3>
 								</div>
 							</div>
-						</a>
+						</div>
 					</motion.li>
 					<motion.li
 						initial={{ y: 200, opacity: 0 }}
@@ -103,7 +103,7 @@ function Products() {
 						}}
 						className="bg-white border border-gray-300 shadow-md"
 					>
-						<a href="#" className="group relative block">
+						<div className="group relative block">
 							<img
 								src="/Porti-W40.png"
 								alt=""
@@ -117,7 +117,7 @@ function Products() {
 									</h3>
 								</div>
 							</div>
-						</a>
+						</div>
 					</motion.li>
 					<motion.li
 						initial={{ y: 200, opacity: 0 }}
@@ -129,7 +129,7 @@ function Products() {
 						}}
 						className="bg-white border border-gray-300 shadow-md"
 					>
-						<a href="#" className="group relative block">
+						<div className="group relative block">
 							<img
 								src="https://www.motorolasolutions.com/content/dam/msi/Products/two-way-radios/vb-400-front.png"
 								alt=""
@@ -143,7 +143,7 @@ function Products() {
 									</h3>
 								</div>
 							</div>
-						</a>
+						</div>
 					</motion.li>
 
 					<motion.li
@@ -152,7 +152,7 @@ function Products() {
 						transition={{ delay: 1, duration: 0.8, ease: [0, 0.71, 0.2, 1.01] }}
 						className="bg-white border border-gray-300 shadow-md"
 					>
-						<a href="#" className="group relative block">
+						<div className="group relative block">
 							<img
 								src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2024/5/28/f25a3aeb-4f5d-4561-b3e7-24b8c2585d06.png"
 								alt=""
@@ -165,7 +165,7 @@ function Products() {
 									</h3>
 								</div>
 							</div>
-						</a>
+						</div>
 					</motion.li>
 				</ul>
 
