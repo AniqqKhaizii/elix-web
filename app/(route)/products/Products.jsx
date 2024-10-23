@@ -79,7 +79,7 @@ function Products() {
 					>
 						<a href="#" className="group relative block">
 							<img
-								src="https://woosimsystems.com/staging/9580/wp-content/uploads/2021/06/WSP-i450..png"
+								src="/WSP-i450.png"
 								alt=""
 								className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
 							/>
@@ -105,7 +105,7 @@ function Products() {
 					>
 						<a href="#" className="group relative block">
 							<img
-								src="https://woosimsystems.com/staging/9580/wp-content/uploads/2021/06/Porti-W40.png"
+								src="/Porti-W40.png"
 								alt=""
 								className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
 							/>
