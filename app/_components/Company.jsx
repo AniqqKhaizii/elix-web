@@ -92,7 +92,7 @@ function Company() {
 
 								<img src="/MPHS.png" alt="mphs" width={100} height={100} />
 								<img
-									src="https://www.tmone.com.my/wp-content/uploads/2023/12/TM-One_Logo@2x.png"
+									src="https://www.tm.com.my/themes/custom/tmtheme/img/brand-centre/img/logos/tm-one/tm-one-logo.svg"
 									alt="TMOne"
 									width={125}
 									height={125}
