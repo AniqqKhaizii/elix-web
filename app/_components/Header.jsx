@@ -44,7 +44,12 @@ function Header() {
 			path: "/products",
 		},
 		{
-			id: 4,
+			id: 5,
+			name: "ACTIVITES",
+			path: "/activities",
+		},
+		{
+			id: 6,
 			name: "CONTACT US",
 			path: "/contact",
 		},
@@ -56,7 +61,7 @@ function Header() {
 
 	return (
 		<div
-			className={`fixed z-10 top-0 lg:w-full sm:w-full lg:px-52 md:px-20 shadow-sm transition-all ease-in-out duration-300 ${
+			className={`fixed z-50 top-0 lg:w-full sm:w-full lg:px-52 md:px-20 shadow-sm transition-all ease-in-out duration-300 ${
 				sticky || !isHomePage
 					? "bg-white shadow-lg py-3 text-gray-900"
 					: "bg-transparent shadow-lg py-3 text-gray-900"
