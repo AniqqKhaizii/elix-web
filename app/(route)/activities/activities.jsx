@@ -22,7 +22,7 @@ const Activities = () => {
 
 	const activities = [
 		{
-			videoSrc: "/Activity/Activity1.mp4",
+			videoSrc: "/Activity/Activity1.png",
 			name: "Latihan Pemantapan Pengguna SPKB",
 			description:
 				"Pihak Elix Solution Sdn. Bhd. menyelenggarakan latihan pemantapan penggunaan Sistem Penguatkuasaan Bersepadu (SPKB) di Majlis Perbandaran Kuala Selangor (MPKS).",
@@ -30,7 +30,7 @@ const Activities = () => {
 				"sm:w-full w-2/3 sm:h-[40vh] h-[35vh] object-cover rounded-lg shadow-md",
 		},
 		{
-			videoSrc: "/Activity/Activity2.mp4",
+			videoSrc: "/Activity/Activity2.png",
 			name: "Kursus Pengukuhan Penguatkuasaan",
 			description:
 				"Pihak Elix Solution Sdn. Bhd. menyelenggarakan kursus pengukuhan penguatkuasaan bagi Tindakan Penguatkuasaan & Pendakwaan Majlis Perbandaran Hulu Selangor (MPHS).",
