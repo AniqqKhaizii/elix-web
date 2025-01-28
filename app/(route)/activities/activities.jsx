@@ -10,6 +10,14 @@ const Activities = () => {
 		mode: "snap",
 		centered: true,
 		slides: { perView: 3, spacing: 15 },
+		breakpoints: {
+			"(min-width: 640px)": {
+				slides: { perView: 1, spacing: 15 },
+			},
+			"(min-width: 1024px)": {
+				slides: { perView: 3, spacing: 20 },
+			},
+		},
 	});
 
 	const activities = [
@@ -18,21 +26,24 @@ const Activities = () => {
 			name: "Latihan Pemantapan Pengguna SPKB",
 			description:
 				"Pihak Elix Solution Sdn. Bhd. menyelenggarakan latihan pemantapan penggunaan Sistem Penguatkuasaan Bersepadu (SPKB) di Majlis Perbandaran Kuala Selangor (MPKS).",
-			className: "w-full h-[40vh] object-cover rounded-lg shadow-md",
+			className:
+				"sm:w-full w-2/3 sm:h-[40vh] h-[35vh] object-cover rounded-lg shadow-md",
 		},
 		{
 			videoSrc: "/Activity/Activity2.mp4",
 			name: "Kursus Pengukuhan Penguatkuasaan",
 			description:
 				"Pihak Elix Solution Sdn. Bhd. menyelenggarakan kursus pengukuhan penguatkuasaan bagi Tindakan Penguatkuasaan & Pendakwaan Majlis Perbandaran Hulu Selangor (MPHS).",
-			className: "w-full h-[40vh] object-cover rounded-lg shadow-md",
+			className:
+				"sm:w-full w-2/3 sm:h-[40vh] h-[35vh] object-cover rounded-lg shadow-md",
 		},
 		{
 			videoSrc: "/Activity/Activity3.jpg",
 			name: "Demonstrasi Penggunaan Drone DJI Enterprise",
 			description:
 				"Pihak Elix Solution Sdn. Bhd. menganjurkan sesi demonstrasi penggunaan Drone DJI Enterprise bagi tujuan Penguatkuasaan kepada Pejabat Tanah & Galian Selangor yang disokong oleh dengan rakan strategik Aonic.",
-			className: "w-full h-[40vh] object-cover rounded-lg shadow-md",
+			className:
+				"sm:w-full w-2/3 sm:h-[40vh] h-[35vh] object-cover rounded-lg shadow-md",
 		},
 	];
 	return (
@@ -44,7 +55,7 @@ const Activities = () => {
 						Our Activities & Updates
 					</h1>
 					<section>
-						<div className="mx-auto max-w-screen-xl py-8 bg-transparent">
+						<div className="mx-auto max-w-screen-xl py-8 bg-transparent px-2">
 							<div ref={sliderRef} className="keen-slider">
 								{activities.map((activity, index) => (
 									<div
