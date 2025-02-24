@@ -11,8 +11,9 @@ const Activities = () => {
 		centered: true,
 		slides: { perView: 3, spacing: 15 },
 		breakpoints: {
-			"(min-width: 350px)": {
-				slides: { perView: 1, spacing: 15 },
+			"(min-width: 400px)": {
+				loop: false,
+				vertical: true,
 			},
 			"(min-width: 1024px)": {
 				slides: { perView: 3, spacing: 20 },
@@ -55,7 +56,7 @@ const Activities = () => {
 						Our Activities & Updates
 					</h1>
 					<section>
-						<div className="mx-auto max-w-screen-xl py-8 bg-transparent px-2">
+						<div className="sm:mx-auto max-w-screen-xl py-8 bg-transparent sm:px-2 mx-2">
 							<div ref={sliderRef} className="keen-slider">
 								{activities.map((activity, index) => (
 									<div
@@ -92,70 +93,6 @@ const Activities = () => {
 						</div>
 					</section>
 				</div>
-				{/* <div className="grid grid-cols-1 gap-y-12 lg:grid-cols-1 lg:items-center gap-5 mx-auto max-w-screen-xl">
-					<div className="grid grid-cols-2 lg:grid-cols-5 gap-4 mt-10">
-						<a className="gallery__item" data-src="/Activity/Gallery-1.jpeg">
-							<img
-								src="/Activity/Gallery-1.jpeg"
-								className="w-full h-60 object-cover cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
-							/>
-						</a>
-						<a className="gallery__item" data-src="/Activity/Gallery-2.jpeg">
-							<img
-								src="/Activity/Gallery-2.jpeg"
-								className="w-full h-60 object-cover cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
-							/>
-						</a>
-						<a className="gallery__item" data-src="/Activity/Gallery-3.jpeg">
-							<img
-								src="/Activity/Gallery-3.jpeg"
-								className="w-full h-60 object-cover cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
-							/>
-						</a>
-						<a className="gallery__item" data-src="/Activity/Gallery-4.svg">
-							<img
-								src="/Activity/Gallery-4.svg"
-								className="w-full h-60 object-cover cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
-							/>
-						</a>
-						<a className="gallery__item" data-src="/Activity/Gallery-5.svg">
-							<img
-								src="/Activity/Gallery-5.svg"
-								className="w-full h-60 object-cover cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
-							/>
-						</a>
-						<a className="gallery__item" data-src="/Activity/Gallery-6.svg">
-							<img
-								src="/Activity/Gallery-6.svg"
-								className="w-full h-60 object-cover cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
-							/>
-						</a>
-						<a className="gallery__item" data-src="/Activity/Gallery-7.svg">
-							<img
-								src="/Activity/Gallery-7.svg"
-								className="w-full h-60 object-cover cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
-							/>
-						</a>
-						<a className="gallery__item" data-src="/Activity/Gallery-8.svg">
-							<img
-								src="/Activity/Gallery-8.svg"
-								className="w-full h-60 object-cover cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
-							/>
-						</a>
-						<a className="gallery__item" data-src="/Activity/Gallery-9.svg">
-							<img
-								src="/Activity/Gallery-9.svg"
-								className="w-full h-60 object-cover cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
-							/>
-						</a>
-						<a className="gallery__item" data-src="/Activity/Gallery-10.svg">
-							<img
-								src="/Activity/Gallery-10.svg"
-								className="w-full h-60 object-cover cursor-pointer hover:scale-105 transition-all ease-in-out duration-300"
-							/>
-						</a>
-					</div>
-				</div> */}
 			</div>
 		</section>
 	);
