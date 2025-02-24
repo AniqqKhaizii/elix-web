@@ -11,7 +11,7 @@ const Activities = () => {
 		centered: true,
 		slides: { perView: 3, spacing: 15 },
 		breakpoints: {
-			"(min-width: 640px)": {
+			"(min-width: 350px)": {
 				slides: { perView: 1, spacing: 15 },
 			},
 			"(min-width: 1024px)": {
