@@ -213,7 +213,7 @@ function Footer() {
 						</p>
 
 						<p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
-							Copyright &copy; 2024{" "}
+							Copyright &copy; 2025{" "}
 							<span className="font-bold">Elix Solution Sdn. Bhd.</span>
 						</p>
 					</div>
