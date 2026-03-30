@@ -36,7 +36,7 @@ function Hero() {
 						}}
 						className="mt-4 max-w-4xl sm:text-7xl/tight text-4xl/tight font-extrabold text-gray-900 text-left drop-shadow-xl lg:bg-transparent lg:p-0 p-0 rounded-3xl"
 					>
-						Smart Solutions for Smarter Operations
+						Smart Solutions for Smarter Operation {/* edit 1 */}
 					</motion.p>
 					<motion.p
 						initial={{ opacity: 0, scale: 0.5 }}
